@@ -14,14 +14,22 @@
     
 // }())
 
+// Q1 gettBigee updated at exercise 11 this one is updating itself
 
- const getBigger = () => {
+
+ const getBigger  = () => {
+  
+    document.getElementById("container").style.backgroundImage ="url('images/hundred-dollar-bill.jpg')"
+    document.getElementById("container").style.backgroundRepeat = "none"
+setInterval (() =>{
+    let domel = document.getElementById('textArea');
+    let style = window.getComputedStyle(domel, null).getPropertyValue('font-size');
+    // domel.style.fontSize = parseFloat(style+2)+'px'
+    let newstyle= parseInt(style)+2+'px';
+    domel.style.fontSize = newstyle;
+},500)
     
-    if(document.getElementById("textArea").value!="")
-    document.getElementById("textArea").style.fontSize="4em";
-    else 
-       alert("text area is empty nothing to enlarge")
-    console.log("fsd")
+   
 
 } 
 
