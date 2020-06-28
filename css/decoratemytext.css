@@ -1,0 +1,23 @@
+
+      h1 {
+        font-style: italic;
+        font-size: bold;
+        text-align: center;
+        background-color: blueviolet;
+        color: white;
+      }
+
+      .container {
+        margin: 0px auto;
+        text-align: center;
+      }
+
+      .row {
+        display: inline-block;
+        width: 50%;
+      }
+      .row > fieldset {
+        margin: 2px;
+        width: 100%;
+      }
+  
