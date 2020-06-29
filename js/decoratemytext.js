@@ -12,7 +12,7 @@
        document.getElementById("container").style.display="block";
     },2000)
     
- }())
+ })()
 
 // Q1 gettBigee updated at exercise 11 this one is updating itself
 
