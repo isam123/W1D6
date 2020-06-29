@@ -1,9 +1,9 @@
-
+window.onload = () => {
 
     "use strict";
     var s =1;
  
- 
+
 
 // Q1 gettBigee updated at exercise 11 this one is updating itself
 
@@ -23,18 +23,6 @@ setInterval (() =>{
    
 
 } 
-
-
- function setStyle () {
-    
-    alert("SDa")
-   
-  
-    // document.getElementById("textArea").style="{color:green;text-decoration:underline;}"
-}
-
-
-const func = () => {alert("From Vs code")};
 
 const bigButton = document.getElementById("bigButton");
 bigButton.onclick = getBigger;
@@ -56,7 +44,7 @@ document.getElementById("checkBox").addEventListener("change",(event) =>{
             document.getElementById("textArea").style.color = "black"
             document.getElementById("textArea").style.fontWeight = "normal"
             document.getElementById("textArea").style.textDecoration = "none"
-             
+            
 
         }
 
@@ -64,4 +52,4 @@ document.getElementById("checkBox").addEventListener("change",(event) =>{
 
 
 
- 
+}
