@@ -56,7 +56,7 @@ document.getElementById("checkBox").addEventListener("change",(event) =>{
             document.getElementById("textArea").style.color = "black"
             document.getElementById("textArea").style.fontWeight = "normal"
             document.getElementById("textArea").style.textDecoration = "none"
-            
+             
 
         }
 
