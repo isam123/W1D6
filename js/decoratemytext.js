@@ -3,16 +3,7 @@
     "use strict";
     var s =1;
  
- (function() {
-    
-    document.getElementById("container").style.display="none";
-    
-    setTimeout(()=>{
-        document.getElementById("loader").style.display="none"
-       document.getElementById("container").style.display="block";
-    },2000)
-    
- })()
+ 
 
 // Q1 gettBigee updated at exercise 11 this one is updating itself
 
